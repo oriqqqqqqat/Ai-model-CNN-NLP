@@ -16,10 +16,11 @@ def get_transforms():
     ])
 
 class SkinDataset(Dataset):
-    def __init__(self, df, tokenizer, transform=None):
+    def __init__(self, df, tokenizer, transform=None, label_map=None):
         self.df = df.reset_index(drop=True) if hasattr(df, "reset_index") else df
         self.tokenizer = tokenizer
         self.transform = transform
+        self.label_map = label_map  # ✅ รับ label_map จากภายนอก
 
     def __len__(self):
         return len(self.df)
@@ -49,13 +50,17 @@ class SkinDataset(Dataset):
         input_ids = encoded["input_ids"].squeeze(0)
         attention_mask = encoded["attention_mask"].squeeze(0)
 
-        # ใช้ label เป็นชื่อโรค
-        label = row["disease"]
+        # ✅ แปลง label string เป็น index ด้วย label_map
+        raw_label = row["disease"]
+        if self.label_map:
+            label = self.label_map[raw_label]
+        else:
+            label = raw_label  # fallback ถ้าไม่ใช้ label_map
 
         return {
             "image": image,
             "input_ids": input_ids,
             "attention_mask": attention_mask,
             "label": label,
-            "path": image_path 
+            "path": row["skincap_file_path"] 
         }
