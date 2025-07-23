@@ -56,5 +56,6 @@ class SkinDataset(Dataset):
             "image": image,
             "input_ids": input_ids,
             "attention_mask": attention_mask,
-            "label": label
+            "label": label,
+            "path": image_path 
         }
