@@ -13,7 +13,7 @@
 <h3>Step3: Concatenation </h3>
 <p> Floder concatfeature -> each file has CNN model (Efficientnetv2-s,Densenet121,ResNet50) and NLP model (BlueBert,ClinicalBert) concat with feature that be extract from each model and use concatenate technique before forward to training process</p>
 <h3>Step4: Training </h3>
-<p> Floder train -> start training if you have done 3 steps already you can run train file  after training you will have weight(.pth file best and last) you can create floder weights to keep it </p>
+<p> Floder train -> start training if you have done 3 steps already you can run train file  after training you will have weight(.pth file best and last),training graph you can create floder name weights to keep weight to use next step</p>
 <h3>Step5: Evaluation </h3>
 <p> Floder evaluate -> after you had created weights floder you can bring weight to evaluate to see model performance if you run evaluate file, The result will have (confusion matrixs,correct and incorrect images, performances)</p>
 <h3>Step6: Apply </h3>
