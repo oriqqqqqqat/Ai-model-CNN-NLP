@@ -17,4 +17,4 @@
 <h3>Step5: Evaluation </h3>
 <p> Floder evaluate -> after you had created weights floder you can bring weight to evaluate to see model performance if you run evaluate file, The result will have (confusion matrixs,correct and incorrect images, performances)</p>
 <h3>Step6: Apply </h3>
-<p> File app -> run this file to use model on localhost web</p>
+<p> File app -> load label_map.json and run app.py file to use model on localhost web</p>
