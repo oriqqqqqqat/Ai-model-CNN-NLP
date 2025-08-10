@@ -1,0 +1,7 @@
+{
+    "basal cell carcinoma": 0,
+    "lupus erythematosus": 1,
+    "melanocytic-nevi": 2,
+    "psoriasis": 3,
+    "squamous cell carcinoma": 4
+}
