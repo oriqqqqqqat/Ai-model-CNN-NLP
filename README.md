@@ -1,10 +1,10 @@
 <h2> Train model CNN + NLP with 5 Skin diseases dataset </h2>
-<h3>ResNet50 + ClinicalBert</h3>
-<h3>ResNet50 + BlueBert</h3>
-<h3>DenseNet121 + ClinicalBert</h3>
-<h3>DenseNet121 + BlueBert</h3>
-<h3>EfficientNetv2-s + ClinicalBert</h3>
-<h3>EfficientNetv2-s + BlueBert</h3>
+<p>ResNet50 + ClinicalBert</p>
+<p>ResNet50 + BlueBert</p>
+<p>DenseNet121 + ClinicalBert</p>
+<p>DenseNet121 + BlueBert</p>
+<p>EfficientNetv2-s + ClinicalBert</p>
+<p>EfficientNetv2-s + BlueBert</p>
 <h3>Step1: Data preparing </h3>
 <p> Floder data  -> you can just load these floders and files for image (train,validate,test) for metadata (train.csv,val.csv,test.csv) </p>
 <h3>Step2: Data preprocessing </h3>
