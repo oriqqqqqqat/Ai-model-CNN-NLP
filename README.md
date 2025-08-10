@@ -1,4 +1,5 @@
 <h2> Train model CNN + NLP with 5 Skin diseases dataset </h2>
+<h3>Models</h3>
 <p>ResNet50 + ClinicalBert</p>
 <p>ResNet50 + BlueBert</p>
 <p>DenseNet121 + ClinicalBert</p>
