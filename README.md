@@ -1,4 +1,4 @@
-<h2> Train model CNN + NLP with Skin diseases dataset</h2>
+<h2> Train model CNN + NLP with 5 Skin diseases dataset</h2>
 <h3>Step1: Data preparing </h3>
 <p> Floder data  -> you can just load these floders and files for image (train,validate,test) for metadata (train.csv,val.csv,test.csv) </p>
 <h3>Step2: Data preprocessing </h3>
