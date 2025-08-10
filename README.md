@@ -7,7 +7,7 @@
 <p>EfficientNetv2-s + ClinicalBert</p>
 <p>EfficientNetv2-s + BlueBert</p>
 <h3>Step1: Data preparing </h3>
-<p> Floder data  -> load these floders and files for image (train,validate,test) for metadata (train.csv,val.csv,test.csv) and changefilepathcsv.py edit this file with your own file path </p>
+<p> Floder data  -> load these floders and files for image (train,validate,test) for metadata (train.csv,val.csv,test.csv) and changefilepathcsv.py edit this file with your file path </p>
 <h3>Step2: Data preprocessing </h3>
 <p> Floder preprocess_tensor -> this floder have 2 files of bert model which about text encoder model I have picked to test their abilities (BlueBert,ClinicalBert)</p>
 <h3>Step3: Concatenation </h3>
